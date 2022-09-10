@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
     "sass": "sass --watch scss:css --style compressed"
+=======
+    "sass": "node-sass --watch scss -o css"
+>>>>>>> 38e57acdd65c11df6c9471d0c5d73e7859fd3400
   },
   "author": "Povilas Saveika",
   "license": "ISC",
