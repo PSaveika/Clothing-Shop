@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <title>WG Clothing | Contacts</title>
+    <title>WG Clothing | Cart</title>
 </head>
 <body>
     <nav class="nav">
@@ -16,8 +16,8 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a class="active" href="contacts.html">Contacts</a></li>
-            <li><a href="cart.html"><i class="fa-brands fa-opencart"></i></a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a class="active" href=""><i class="fa-brands fa-opencart"></i></a></li>
             <a href="#" id="close" class="close"><i class="far fa-x"></i></a>
         </ul>
         <div class="mobile">
@@ -27,75 +27,77 @@
     </nav>
 
     <header class="contact-header">
-        <h2>#contacts</h2>
-        <p>LEAVE A MESSAGE, We would love to hear from you!</p>
+        <h2>#cart</h2>
+        <p>Pay for your product and wait for delivery</p>
     </header>
 
-    <section class="contact-details section-pad1">
-        <div class="details">
-            <span>GET IN TOUCH</span>
-            <h2>Visit one of our agency locations or contact us</h2>
-            <h3>Head Office</h3>
-            <div>
-                <li>
-                    <i class="fa fa-map"></i>
-                    <p>1245 Hedge Street, High Bridge (Hunterdon), New Jersey</p>
-                </li>
-                <li>
-                    <i class="fa fa-envelope"></i>
-                    <p>info@wgsupport.com</p>
-                </li>
-                <li>
-                    <i class="fa fa-phone-alt"></i>
-                    <p>201-290-9992 / 908-638-0649</p>
-                </li>
-                <li>
-                    <i class="fa fa-clock"></i>
-                    <p>10:00 - 18:00, Mon-Sat</p>
-                </li>
-            </div>
-        </div>
-
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12105.041922491026!2d-74.91152524164518!3d40.66822928765612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c38bc2daaefd4f%3A0x48f29cb1a83785b8!2sHigh%20Bridge%2C%20Naujasis%20D%C5%BEersis%2C%20Jungtin%C4%97s%20Valstijos!5e0!3m2!1slt!2slt!4v1662504933413!5m2!1slt!2slt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+    <section class="cart-body section-pad1">
+        <table>
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/product-1.jpg" alt="T-Shirt"></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>€25</td>
+                    <td><input type="number" value="1"></td>
+                    <td>€25</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/product-2.jpg" alt="T-Shirt"></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>€25</td>
+                    <td><input type="number" value="1"></td>
+                    <td>€25</td>
+                </tr>
+                <tr>
+                    <td><a href=""><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="img/products/product-3.jpg" alt="T-Shirt"></td>
+                    <td>Cartoon Astronaut T-Shirts</td>
+                    <td>€25</td>
+                    <td><input type="number" value="1"></td>
+                    <td>€25</td>
+                </tr>
+            </tbody>
+        </table>
     </section>
 
-    <section class="contact-form">
-        <form action="">
-            <span>LEAVE A MESSAGE</span>
-            <h2>We would love to hear from you!</h2>
-            <input type="text" placeholder="Your name">
-            <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="Subject">
-            <textarea rows="10" placeholder="Your Text"></textarea>
-            <button>Submit</button>
-        </form>
-
-        <div class="team">
+    <section class="cart-add section-pad1">
+        <div class="coupon">
+            <h3>Apply Coupon</h3>
             <div>
-                <img src="img/people/person-1.png" alt="">
-                <p><span>John Doe</span> Marketing Manager <br> Phone: + 000 111 222 33 44 <br> Email: john@wbsupport.com</p>
-            </div>
-            <div>
-                <img src="img/people/person-2.png" alt="">
-                <p><span>William Smith</span> Marketing Manager <br> Phone: + 000 111 222 33 44 <br> Email: william@wbsupport.com</p>
-            </div>
-            <div>
-                <img src="img/people/person-3.png" alt="">
-                <p><span>Emma Stone</span> Marketing Manager <br> Phone: + 000 111 222 33 44 <br> Email: emma@wbsupport.com</p>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button>Apply</button>
             </div>
         </div>
-    </section>
 
-    <section class="newsletter section-pad1 section-mar1">
-        <div class="newsletter-container">
-            <h4>Sign Up For Newsletter</h4>
-            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
-        </div>
-        <div class="form">
-            <input type="text" placeholder="Your email address">
-            <button>Sign Up</button>
+        <div class="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>€75</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>€75</strong></td>
+                </tr>
+            </table>
+            <button>Procced to checkout</button>
         </div>
     </section>
 
@@ -149,5 +151,6 @@
         </div>
     </footer>
     <script src="./script/script.js"></script>
+    
 </body>
 </html>
